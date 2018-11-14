@@ -6,7 +6,7 @@ Because a variational autoencoder (VAE) model learns features that conform to ex
 An example of a latent space walk is shown below, in which each row is a learned feature, and each column represents a different position along the percentile distribution curve of the prior, which in this case is a standard normal.
 For each latent feature under study, the remaining features are simply held to their expected value.
 
-![LatentWalk](walk_manifold.py)
+![LatentWalk](walk_global.png)
 
 This visualization illustrates the role of independent features, but does not model interactions between them.
 To better visualize the entire learned feature space, we introduce the Principal Feature Manifold.
